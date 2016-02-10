@@ -23,12 +23,12 @@ Defaultly, it stores moments in your Default Journal.dayone, located here:
 
 1. Make a Momento 3 backup and export it to your mac.
 2. Unzip that backup, you will get a folder "Backups", then unzip the latest backup data in folder "Data" inside and rename the new folder into "backup".
-3. Build this project, or, `go install https://github.com/int123c/Momento3toDayOne`, and run it in terminal trailing by the path of folder "Backups" like: <br> `> ./Momento3toDayOne -p="/Users/username/Downloads/Backups"` <br> Or, you may put the binary file into "Backups" and run it without augument.
+3. Build this project, or, `go get github.com/int123c/Momento3toDayOne`, and run it in terminal trailing by the path of folder "Backups" like: <br> `> ./Momento3toDayOne -p="/Users/username/Downloads/Backups"` <br> Or, you may put the binary file into "Backups" and run it without augument.
 4. Wait for it to finish.
 
 ##Attention:
 
-Please **turn of sync** before you do it. (incase you don't like the result)
+Please **turn off sync** before you do it. (incase you don't like the result)
 
 If you don't want it to store moments into your default journal, edit `main.go` and change `jounalPath` to another `.dayone` file.
 
